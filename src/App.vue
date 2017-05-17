@@ -22,6 +22,10 @@ html,body,#app{
   width: 100%;
   height: 100%;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

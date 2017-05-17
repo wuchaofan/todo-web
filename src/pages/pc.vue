@@ -6,6 +6,10 @@
                 <span>{{item.title}}</span>
                 <i v-if="item.done" class="fa fa-check-circle" aria-hidden="true"></i>
             </a>
+            <a href="#" class="add">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <span>添加待办事项</span>
+            </a>
         </div>
       </div>
       <div class="right">
@@ -48,6 +52,23 @@ export default {
 }
 </script>
 <style scoped>
+
+.add{
+  height: 50px;
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: #0066CC;
+}
+.add i{
+  font-size: 22px;
+}
+.add span{
+  margin-left: 10px;
+}
+
 .tasks{
     display: flex;
     flex-direction: column;

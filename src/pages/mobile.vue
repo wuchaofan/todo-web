@@ -21,6 +21,10 @@
             <span>{{item.title}}</span>
           </a>
         </div>
+        <div class="add">
+          <i class="fa fa-plus-circle" aria-hidden="true"></i>
+          <span>添加待办事项</span>
+        </div>
       </div>
   </div>
 </template>
@@ -62,6 +66,21 @@ export default {
 }
 </script>
 <style scoped>
+.add{
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 -1px 1px 1px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: #0066CC;
+}
+.add i{
+  font-size: 22px;
+}
+.add span{
+  margin-left: 10px;
+}
 .c-uncheck{
   width: 25px;
   height: 25px;
