@@ -112,6 +112,7 @@ export default {
   align-items: center;
   padding: 0 10px;
   color: black;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
 }
 .card + .card{
   margin-top: 10px;
@@ -150,8 +151,9 @@ export default {
   height: 100%;
   top: 0;
   left: 0;
-    background-image: url(../assets/Wood1.jpg);
-    background-size: cover;
+    background:repeat url(../assets/bb.jpg);
+    
+    /*background-size: cover;*/
 }
 
 </style>
