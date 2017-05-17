@@ -22,9 +22,9 @@ npm run build
 
 ### PC web
 
-[Demo](http://wuchaofan.github.io/demo/todo/index.html#/pc)
+[Demo](http://wuchaofan.github.io/demo/todo/index.html#/pc)
 
 <img src="./pc.png" width="660">
                 
-    未做兼容，在chrome上打开
+    未做兼容，在chrome上打开
  
