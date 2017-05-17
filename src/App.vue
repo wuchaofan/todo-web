@@ -12,15 +12,6 @@ export default {
     }
   },
   mounted() {
-    
-    this.$http.get('/repos').then(response => {
-      // get body data
-      console.log(response.body.repositories)
-
-    }, response => {
-      // error callback
-      console.log(response)
-    });
   }
 }
 </script>

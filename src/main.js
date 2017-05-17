@@ -3,6 +3,7 @@ import App from './App.vue'
 import VueResource  from 'vue-resource'
 import VueRouter from 'vue-router'
 import router from  './router/router'
+import 'font-awesome/css/font-awesome.min.css'
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
