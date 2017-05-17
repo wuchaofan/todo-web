@@ -50,7 +50,7 @@ export default {
     changeDone (item,event,index){
       item.done = !item.done
 
-      this.todolist.splice(index,1)
+      // this.todolist.splice(index,1)
       event.stopPropagation()
       event.preventDefault()
     }
