@@ -10,7 +10,7 @@
             </a>
         </div>
       </div>
-      <div clas="right">
+      <div class="right">
 
       </div>
   </div>
@@ -25,14 +25,14 @@ export default {
     }
   },
   mounted() {
-    this.$http.get('/repos').then(response => {
-      // get body data
-      console.log(response.body.repositories)
-      this.repos = response.body.repositories
-    }, response => {
-      // error callback
-      console.log(response)
-    });
+    // this.$http.get('/repos').then(response => {
+    //   // get body data
+    //   console.log(response.body.repositories)
+    //   this.repos = response.body.repositories
+    // }, response => {
+    //   // error callback
+    //   console.log(response)
+    // });
   },
   watch: {
   }
