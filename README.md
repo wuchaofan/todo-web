@@ -26,5 +26,5 @@ npm run build
 
 <img src="./pc.png" width="660">
                 
-    未做兼容，在chrome上打开
+    未做兼容，在chrome上打开
  
